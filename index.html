@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    
+    
+<script src="jquery.mosaicflow-master/jquery.mosaicflow.min.js"></script>
+    
+    
+    <style type="text/css">
+    
+    
+.mosaicflow__column {
+	float:left;
+	}
+
+.mosaicflow__item {
+	position:relative;
+	}
+	.mosaicflow__item img {
+		display:block;
+		width:100%;
+		max-width:500px;
+		height:auto;
+		}
+	.mosaicflow__item p {
+		position:absolute;
+		bottom:0;
+		left:0;
+		width:100%;
+		margin:0;
+		padding:5px;
+		background:hsla(0,0%,0%,.5);
+		color:#fff;
+		font-size:14px;
+		text-shadow:1px 1px 1px hsla(0,0%,0%,.75);
+		opacity:0;
+		-webkit-transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
+		   -moz-transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
+		     -o-transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
+		        transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
+		}
+	.mosaicflow__item:hover p {
+		opacity:1;
+		}
+        
+    </style>
+
+</head>
+
+
+<body>
+    
+    
+    
+    <div class="clearfix mosaicflow">
+        
+        
+        
+        
+    <div class="mosaicflow__item">
+        <img width="250" height="167" src="images/rise1.jpg" alt="">
+        <p>The Rise</p>
+    </div>
+        
+        
+        
+    <div class="mosaicflow__item">
+        <img width="300" height="200" src="images/rise2.jpg" alt="">
+        <p>The Rise</p>
+    </div>
+        
+        
+    <div class="mosaicflow__item">
+        <img width="300" height="200" src="images/rise3.jpg" alt="">
+        <p>The Rise</p>
+    </div>
+
+        
+            <div class="mosaicflow__item">
+        <img src="images/M.png" alt="">
+        <p>M Experiment</p>
+    </div>
+        
+        
+        
+                    <div class="mosaicflow__item">
+        <img width="200" height="283" src="images/M2.png" alt="">
+        <p>M Experiment</p>
+    </div>
+        
+        
+                    <div class="mosaicflow__item">
+        <img src="images/M3.png" alt="">
+        <p>M Experiment</p>
+    </div>
+        
+        
+        
+
+</div>
+    
+    
+    <!-- 	<div class="wrapper">
+		<h1>Mosaic Flow</h1>
+		<div class="subtitle">Pinterest like responsive image grid for jQuery that doesn’t suck</div>
+		<div class="description">
+			<p>It allows you to do stuff like this. Try to shrink you browser. It’s responsive and amazingly fast!</p>
+		</div>
+
+
+		<div class="clearfix mosaicflow">
+			<div class="mosaicflow__item">
+				<img width="480" height="672" src="img/2012-08-20_5D_1287_Artem_Sapegin.jpg"  alt="">
+				<p>Dessi the Dachshund</p>
+			</div>
+
+			<div class="mosaicflow__item">
+				<img width="480" height="343" src="img/2012-08-24_5D_2066_Artem_Sapegin.jpg"  alt="">
+				<p>Tsiri on Baltic Sea</p>
+			</div>
+
+			<div class="mosaicflow__item">
+				<img width="480" height="480" src="img/2012-10-21_5D_3178_Artem_Sapegin.jpg"  alt="">
+				<p>Ciyar the Saluki</p>
+			</div>
+
+			<div class="mosaicflow__item">
+				<img width="480" height="600" src="img/2012-08-26_5D_2551_Artem_Sapegin.jpg"  alt="">
+				<p>Tsiri Having Fun by the Sea</p>
+			</div>
+
+			<div class="mosaicflow__item">
+				<img width="480" height="320" src="img/2012-08-26_5D_2323_Artem_Sapegin.jpg"  alt="">
+				<p>Dessi Meets the Sea</p>
+			</div>
+
+			<div class="mosaicflow__item">
+				<img width="480" height="720" src="img/2012-05-19_5D_9670_Artem_Sapegin.jpg"  alt="">
+				<p>Tsiri the Saluki</p>
+			</div>
+
+			<div class="mosaicflow__item">
+				<img width="480" height="672" src="img/2012-08-20_5D_1165_Artem_Sapegin.jpg"  alt="">
+				<p>Dessi on a Waterfall</p>
+			</div>
+
+			<div class="mosaicflow__item">
+				<img width="480" height="385" src="img/2011-05-28_5D_4035_Artem_Sapegin.jpg"  alt="">
+				<p>Dessi in Dandelion Field</p>
+			</div>
+
+			<div class="mosaicflow__item">
+				<img width="480" height="384" src="img/2012-12-09_5D_3758_Artem_Sapegin.jpg"  alt="">
+				<p>New Year Postcard from Tsiri and Ciyar</p>
+			</div>
+
+			<div class="mosaicflow__item">
+				<img width="480" height="343" src="img/2012-10-21_5D_3422_Artem_Sapegin.jpg"  alt="">
+				<p>Beautiful Afghan Hound Girl</p>
+			</div>
+
+			<div class="mosaicflow__item">
+				<img width="480" height="384" src="img/2012-10-21_5D_3414_Artem_Sapegin.jpg"  alt="">
+				<p>Running Ciyar and Afgan Girl</p>
+			</div>
+
+			<div class="mosaicflow__item">
+				<img width="480" height="320" src="img/2012-08-26_5D_2378_Artem_Sapegin.jpg"  alt="">
+				<p>Dessi Walking on a Sea Shore</p>
+			</div>
+
+		</div>
+-->
+
+<script>
+    $('#mycontainer').mosaicflow({
+    itemSelector: '.item',
+    minItemWidth: 300
+});
+    </script>
+
+
+
+</body>
+
+
+
+</html>
