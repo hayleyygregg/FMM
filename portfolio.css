@@ -1,0 +1,624 @@
+/* Hayley Gregg Portfolio Stylesheet */
+
+
+
+/* RESET */
+
+        * {
+         
+            
+            margin: 0;
+            padding: 0;
+            font-size: 100%;
+        }
+
+
+
+/* STYLE */
+
+
+        body {
+            
+            font-family: 'Roboto', 'Source Sans Pro', sans-serif;
+            font-weight: 300;
+            color: #2c2c2c;
+        
+            
+            
+            
+        }
+
+
+
+/* SECTIONS */
+   
+
+
+        section, #about {
+            
+            width: 60%;
+            margin: 0 auto;
+            padding: 40px 0; /* was 80px changed */
+            
+        }
+
+
+        #work {
+            
+            width: 100%;
+            background-color: #2deadb;  /*  another nice colour #00e5e5 light blue colour #87f2ee */
+/*            padding-top: 40px;*/
+            
+            
+        }
+
+
+
+
+header {
+    
+    background-color: #2deadb; /*  another nice colour #00e5e5 light blue colour #87f2ee */
+/*    color: white; in a diff place*/
+/*    padding: 120px;*/
+    
+}
+
+
+
+/* HEADINGS */
+
+
+
+
+        h1, h2, h3, h4, h5, h6 {
+            
+            text-align: center;
+            margin: 20px 0;
+            font-weight: 300;
+            
+        }
+
+
+
+h1 {
+    
+    font-size: 2.8em;
+    font-weight: 100;
+    margin: 0;
+    
+}
+
+h2#subtitle {
+ 
+    margin-top: 5px;
+    padding-top: 0;
+    font-weight: 300;
+    font-size: 1.4em;
+
+    
+}
+
+h3, #work-heading {
+    
+    
+        font-size: 1.9em;
+    
+    
+}
+
+
+h1, h2#subtitle, #work-heading, #work-subheading {
+    
+    color: white;
+    
+    
+}
+
+
+#work-heading {
+    
+    
+    margin: 10px;
+    
+    
+}
+
+
+#work-subheading { /* keep? */
+    
+    
+    opacity: 0.9;
+
+    
+    
+    
+}
+
+
+
+
+
+#about {
+    
+    
+    padding-bottom: 50px; /* bring social links closer */
+    
+    
+}
+
+#about h3 {
+    
+    margin: 0;
+margin-bottom: 20px;
+    
+    
+}
+
+
+#about p {
+    
+margin: 40px auto;
+line-height: 1.5;
+font-size: 1.1em; /* or 1.2? - was 1em but too small and 1.2 too big */
+width: 75%;
+    
+}
+
+p#more-about {
+    
+/*    text-align: center;*/
+    font-family: "grafolita-script", "Lobster", cursive;
+    font-size: 1.8em; /* was 1.4em when it was Lobster font */
+    font-weight: 400;
+    margin-bottom: 10px; /* was 0px */
+    
+}
+
+
+strong#love-quote, a#ixd-link {
+    
+font-weight: 400;
+
+    
+    
+}
+
+
+
+/* LINKS */
+
+
+
+a {
+    
+    text-decoration: none;
+    border-bottom: 1px solid #5a5959;
+    color: #5a5959;
+    
+    
+}
+
+#subtitle a {
+    
+    color: white;
+    border: none;
+    
+    
+}
+
+#subtitle a:hover {
+    
+    
+    color: #5a5959; 
+    
+    
+}
+
+
+#work-subheading a,#work-subheading a:link, #work-subheading a:visited {
+    
+    
+    color: white;
+    border-bottom: 1px solid white;
+    
+    
+    
+}
+
+
+#work-subheading a:hover {
+    
+    color: #5a5959;
+    border-bottom: 1px solid #5a5959;
+    
+    
+    
+}
+
+a#ixd-link {
+    
+    border: none;
+    color:inherit;
+    
+    
+}
+
+a:hover#ixd-link {
+    
+    color: #5a5959;
+    
+    
+}
+
+
+/* CENTERING ELEMENTS */
+
+
+
+#p-center, #work-heading, #work-subheading {
+    
+    text-align: center;
+    
+    
+}
+
+#p-center {
+    
+    padding-top: 5px; /* space from arrow */
+/*    CHANGED TO MARGIN BECAUSE OF UNDERLINE
+    
+    padding-bottom: 50px;  was padding top before arrow was added 
+    
+    */
+    padding-top: 5px;
+margin-bottom: 50px;
+width: 100px; /* because of underline */
+margin: auto; /* to center */
+    
+    
+}
+
+
+
+/* FIGURES */
+
+
+
+
+
+figure {
+   
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+
+figure#top {
+    
+
+    position: fixed;  
+    top: 650px;
+    right: 70px; 
+    
+}
+
+
+figure#top img {
+    
+    
+        width: 50px;
+    
+    
+    
+}
+
+
+figure#top a, figure#top a:link, figure#top a:visited {
+    
+    
+    border: none;
+    opacity: 0.2;
+    
+    
+}
+
+
+figure#top a:hover { 
+
+opacity: 1;
+
+
+}
+
+figure#lettering-heart {
+    
+text-align: center;
+    margin: 30px 0; /* was 40px 0 */
+
+
+    
+}
+
+figure#lettering-heart img {
+    
+    width: 50%;
+    
+    
+}
+
+
+header figure {
+    
+    
+    padding-top: 120px;
+    
+    
+}
+
+header figure#arrow {
+    
+
+padding-top: 70px; /* was 80 */
+padding-bottom: 30px; /* was 20 */
+margin-bottom: 0; /* so draw and create stays right place */
+    
+}
+
+header figure#arrow img, figure#arrow2 img {
+    
+    width: 100px;
+    
+    
+}
+
+
+figure#arrow2 {
+    
+padding-top: 60px; /* was 50 */
+margin: 0;
+    
+    
+}
+
+figure#arrow2 p#p-center {
+    
+     border-bottom: 1px solid #5a5959;   
+}
+
+figure#arrow2 a { /* stop inheritance */
+    
+    color: #010101;
+    border: none
+
+    
+}
+
+
+figure#arrow2:hover { 
+    
+    opacity: 0.5;
+    
+}
+
+
+
+#drawandcreate {
+    
+    width: 270px;
+    margin: 0 auto;
+    padding: 30px; /* was 20px */
+    
+    
+}
+
+#draw, #create {
+    
+    float: left;
+    width: 100px; /* was 200 */
+
+
+    
+}
+
+#draw img, #create img {
+    
+    width: 100%;
+    
+}
+
+p#and {
+    
+font-size: 3.9em;
+font-weight: 100;
+float: left;
+width: 50px;
+text-align: center;
+padding: 10px;
+    
+}
+
+h3#passion {
+    
+    clear: both;
+    padding-top: 30px; /* padded drawandcreate instead - was 60px */
+    
+    
+}
+
+
+
+
+ul#social { 
+    
+    
+    text-align: center;
+    list-style-type: none;
+/*    margin-top: 20px;*/
+
+    
+    
+    
+}
+
+
+
+
+
+ul#social li {
+    
+    
+    display: inline;
+    margin: 5px;
+    
+    
+}
+
+a.social-links {
+    
+    border-bottom: none;
+    
+    
+}
+
+
+ul#social li img {
+    
+    width: 40px;
+    padding: 0 5px;
+    
+    
+}
+
+
+#work-images {
+    
+    
+    text-align: center;
+    
+    
+    
+}
+
+
+
+/* WORK SHOWCASE */
+
+
+
+ul#showcase, ul#showcase2 {
+    
+    
+    margin: 50px;
+    
+    
+    
+}
+
+
+
+
+
+ul#showcase li a, ul#showcase li a:link, ul#showcase li a:hover, ul#showcase li a:visited, ul#showcase2 li a, ul#showcase2 li a:link, ul#showcase2 li a:hover, ul#showcase2 li a:visited {
+    
+    border: none;
+    
+    
+}
+
+
+/* Source of Image Overlay http://www.w3schools.com/css/css_image_transparency.asp 
+
+Image Text Overlay help http://www.corelangs.com/css/box/overlay.html */
+
+
+ul#showcase li img, ul#showcase2 li img {
+    
+    width: 300px;
+    opacity: 1.0;
+/*    filter: alpha(opacity=40); not valid - not really needed? */
+
+
+    
+    
+}
+
+
+ul#showcase li img:hover, ul#showcase2 li img:hover {
+    opacity: 0.4;
+/*    filter: alpha(opacity=100); not valid - not really needed? */
+}
+
+
+
+ul#showcase li img:hover span.overlay, ul#showcase2 li img:hover span.overlay {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+}
+
+
+
+
+
+
+ul#showcase li, ul#showcase2 li {
+    
+    display: inline;
+    margin: 0 30px;
+    
+    
+}
+
+
+
+/* SOCIAL LINKS FOOTER */
+
+
+
+footer h4 {
+    
+    font-size: 0.7em;
+/*    font-weight: 400;*/
+    color: #c3c3c3;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 10px;
+
+    
+    
+}
+
+footer {
+    
+    
+/*    margin-bottom: 50px;*/
+    margin: 60px 0;
+    
+    
+}
+
+
+footer ul#social li a img { 
+    
+        opacity: 0.2; /* was 0.4 */
+    filter: alpha(opacity=40); /* For IE8 and earlier not valid - not really needed? */ 
+    
+    
+    
+}
+
+
+footer ul#social li a img:hover {
+    
+       opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier not valid - not really needed? */ 
+    
+}
+
