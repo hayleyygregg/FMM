@@ -57,7 +57,11 @@
 
 header {
     
-    background-color: #2deadb; /*  another nice colour #00e5e5 light blue colour #87f2ee */
+    
+    background-image: url(images/background.png);
+    background-size: cover;
+width: 100%;
+   /* background-color: #2deadb;  another nice colour #00e5e5 light blue colour #87f2ee */
 /*    color: white; in a diff place*/
 /*    padding: 120px;*/
     
@@ -348,10 +352,11 @@ figure#lettering-heart img {
 }
 
 
-header figure {
+header figure img{
     
     
     padding-top: 120px;
+
     
     
 }
