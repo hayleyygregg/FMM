@@ -58,11 +58,11 @@
 header {
     
     
-    background-image: url(images/background3.png);
-    background-size: cover;
+background-image: url(images/background3.png);
+background-size: cover;
 width: 100%;
-        overflow: auto;
-    padding-bottom: 50px;
+height: 100%;
+padding-bottom: 400px;
    /* background-color: #2deadb;  another nice colour #00e5e5 light blue colour #87f2ee */
 /*    color: white; in a diff place*/
 /*    padding: 120px;*/
@@ -92,6 +92,15 @@ h1 {
     font-weight: 100;
     margin: 0;
     
+    
+}
+
+header h1 {
+    
+    position: relative;
+top: 200px;
+left: 10px;
+    
 }
 
 h2#subtitle {
@@ -99,6 +108,8 @@ h2#subtitle {
     margin-top: 5px;
     font-weight: 300;
     font-size: 1.4em;
+    position: relative;
+    top: 200px;
 
     
 }
@@ -342,12 +353,10 @@ opacity: 1;
 header figure img{
     
     
-    padding-top: 50px;
-/*    width: 250px;*/
-    width: 200px;
-    margin-bottom: 10px;
-
-    
+width: 250px;
+margin-bottom: 10px;
+position: relative;
+top: 200px;
     
 }
 

@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    
+    
+    <meta charset="UTF-8">
+    
+    <title>Hayley Gregg | Portfolio</title>
+    
+    
+    <meta name="description" content="Hi I'm Hayley Gregg, Interaction Design Student from Belfast, with a love for all things Typography.">
+    
+    
+<!--    Stylesheet-->
+    
+    
+    <link rel="stylesheet" href="portfolio.css" media="screen">
+    
+<!--
+    
+    Google Font
+-->
+    
+    
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+    
+
+    
+    <!--
+
+
+
+SVG ICONS FROM
+
+
+DOWNWARD FACING ARROW By: Icon Jungle
+
+https://www.iconfinder.com/iconsets/slim-square-icons-basics
+
+ARROW UP By Elegant Themes
+
+SOURCED FROM
+
+http://www.flaticon.com/free-icon/arrow-in-circle-point-to-up_10442
+
+
+licensed under Creative Commons BY 3.0
+
+http://creativecommons.org/licenses/by/3.0/Creative Commons BY 3.0
+
+http://creativecommons.org/licenses/by/3.0/
+
+
+
+
+
+-->
+    
+    
+    <!--FAVICON-->
+    
+    
+    <link rel="icon" href="images/favicon.png">
+    
+    
+    
+    
+    
+    <style type="text/css">
+        
+        
+        #showcase {
+            
+            text-align: center;
+            padding: 50px;
+            
+
+
+            
+            
+            
+        }
+        
+        .col-sm-6 {
+            
+            padding: 10px;
+            display: inline-block;
+        
+          
+            
+            
+        }
+        
+
+        
+        .ih-item {
+  position: relative;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+.ih-item,
+.ih-item * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.ih-item a {
+  color: #333;
+}
+.ih-item a:hover {
+  text-decoration: none;
+}
+.ih-item img {
+  width: 100%;
+  height: 100%;
+}
+
+    
+    .ih-item.square {
+  position: relative;
+  width: 316px;
+  height: 216px;
+  border: 8px solid #fff;
+/*  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);*/
+        
+/*
+        -webkit-box-shadow: 0px 0px 12px 0px rgba(50, 50, 50, 0.55);
+-moz-box-shadow:    0px 0px 12px 0px rgba(50, 50, 50, 0.55);
+box-shadow:         0px 0px 12px 0px rgba(50, 50, 50, 0.55);
+*/
+        
+        -webkit-box-shadow: 0px 0px 12px 0px rgba(50, 50, 50, 0.17);
+-moz-box-shadow:    0px 0px 12px 0px rgba(50, 50, 50, 0.17);
+box-shadow:         0px 0px 12px 0px rgba(50, 50, 50, 0.17);
+}
+.ih-item.square .info {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+        
+.ih-item.square.effect3 {
+  overflow: hidden;
+}
+.ih-item.square.effect3.colored .info {
+  background: #888;
+background:rgba(0,0,0,0.6);
+}
+.ih-item.square.effect3 .img {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+.ih-item.square.effect3 .info {
+  height: 65px;
+  background: #333333;
+  opacity: 0;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+        
+        .ih-item.square.effect3 .info h3 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+  padding: 20px 10px 0 4px;
+  margin: 4px 0 0 0;
+}
+        
+/*
+.ih-item.square.effect3 .info p {
+  font-style: italic;
+  font-size: 12px;
+  position: relative;
+  color: #666;
+  padding: 5px;
+  text-align: center;
+}
+*/
+.ih-item.square.effect3 a:hover .info {
+  visibility: visible;
+  opacity: 1;
+}
+
+.ih-item.square.effect3.bottom_to_top .info {
+  top: auto;
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  -o-transform: translateY(100%);
+  transform: translateY(100%);
+}
+.ih-item.square.effect3.bottom_to_top a:hover .img {
+  -webkit-transform: translateY(-50px);
+  -moz-transform: translateY(-50px);
+  -ms-transform: translateY(-50px);
+  -o-transform: translateY(-50px);
+  transform: translateY(-50px);
+}
+        
+        .ih-item.square.effect3.bottom_to_top a:hover .info {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.ih-item.square.effect3.top_to_bottom .info {
+  bottom: auto;
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+.ih-item.square.effect3.top_to_bottom a:hover .img {
+  -webkit-transform: translateY(50px);
+  -moz-transform: translateY(50px);
+  -ms-transform: translateY(50px);
+  -o-transform: translateY(50px);
+  transform: translateY(50px);
+}
+.ih-item.square.effect3.top_to_bottom a:hover .info {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+}
+        
+        
+        /* astrid code #banner {
+background-attachment: scroll, scroll, scroll, fixed;
+background-color: #ED9993;
+background-image: url(images/BackgroundImage.jpg);
+background-size: cover;
+width: 100%;
+background-position: bottom left, bottom right, top left, top center;
+background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+color: white;
+cursor: default;
+padding: 6em 0;
+text-align: center;
+} 
+        
+        
+        http://css-tricks.com/perfect-full-page-background-image/
+        
+        
+        */
+        
+        
+  
+    
+    
+    
+    </style>
+    
+
+</head>
+
+
+<body>
+    
+    <article id="home">
+        
+        
+                            <figure id="top">
+            
+            
+            <a href="#home" title="Top of page"><img src="images/SVG/up-arrow.svg" alt="Up Arrow"></a>
+        
+        
+        
+        </figure>
+        
+        
+
+        
+        
+        <header>
+            
+
+            
+            <figure><img src="images/monogram.svg" alt="Hayley Gregg Logo"></figure>
+    
+                <h1>Hi, I'm Hayley.</h1>
+
+            <h2 id="subtitle"><a href="https://twitter.com/ixdbelfast" title="View Twitter Feed">@ixdbelfast</a> student</h2>
+            
+            
+
+
+            
+            
+        </header>
+        
+        
+        
+                <section id="about">
+            
+            
+            <h3>About Me</h3>
+            
+            
+            <p>I am currently studying <a href="http://ixdbelfast.org/" title="What's this?" id="ixd-link">Interaction Design</a>, an awesome new course at the University of Ulster in Belfast. With experience in developing webpages in a previous course, I knew it wasn't what I was passionate about. A strong believer in <strong id="love-quote">&ldquo;Do what you love&rdquo;</strong> I took a leap of faith to follow my love for all things design and it was the best decision I ever made!</p>
+            
+            <p>Discovering Typography and inspired by Hand-Drawn Type, I knew it is what I was born to do. Therefore my mission is to make the world beautiful with Typography, one letter at a time.</p>
+            
+            
+<!--
+            So in my spare time I enjoy the good old-fashioned method of a pencil and paper in a mission to make the world beautiful with typography, one letter at a time
+                
+                
+                Although working on screen, I enjoy the good old-fashioned use of a pencil and paper! 
+                
+                
+                I'm also a bit of a fitness enthusiast and impulsive shopper</p>
+        
+-->
+        
+        
+        
+        
+        </section>
+        
+        
+
+        
+        
+        <section id="work">
+    
+    
+                <p id="work-heading">Check out my work</p>
+            
+            <p id="work-subheading">Not enough? <a href="https://www.flickr.com/photos/hayleygregg/" title="Prepare to be amazed">See more</a></p>
+            
+
+            
+            <div id="showcase">
+            
+    
+  <div class="col-sm-6">
+ 
+    <!-- colored -->
+    <div class="ih-item square colored effect3 bottom_to_top"><a href="#">
+        <div class="img"><img src="images/pirate-color.png" alt="img"></div>
+        <div class="info">
+          <h3>Hand-Lettering</h3>
+
+        </div></a></div>
+    <!-- end colored -->
+ 
+  </div>
+                
+                
+                
+                
+                  <div class="col-sm-6">
+ 
+    <!-- colored -->
+    <div class="ih-item square colored effect3 bottom_to_top"><a href="#">
+        <div class="img"><img src="images/pirate-color.png" alt="img"></div>
+        <div class="info">
+          <h3>Photography</h3>
+        </div></a></div>
+    <!-- end colored -->
+ 
+  </div>
+                
+                
+                                
+                  <div class="col-sm-6">
+ 
+    <!-- colored -->
+    <div class="ih-item square colored effect3 bottom_to_top"><a href="#">
+        <div class="img"><img src="images/pirate-color.png" alt="img"></div>
+        <div class="info">
+          <h3>Side Projects</h3>
+
+        </div></a></div>
+    <!-- end colored -->
+ 
+  </div>
+                
+                
+                
+                
+            </div>
+     
+
+                
+                
+
+                
+
+
+            
+            
+            
+            
+        </section><!-- CLOSE WORK -->
+        
+        
+
+        
+        
+        
+        
+        <footer>
+            
+            
+            <ul id="social">
+                
+                
+                <!--social SVG icons from 
+
+
+https://www.iconfinder.com/iconsets/picons-social
+
+
+offical website : https://picons.me/#social
+
+
+
+-->
+            
+                
+                <li><a href="https://twitter.com/hayleyygregg" title="Follow me on Twitter!" class="social-links"><img src="images/SVG/03-twitter.svg" alt="Twitter" /></a></li>
+                
+                
+                <li><a href="https://www.flickr.com/photos/hayleygregg/" title="Have a look at my Flickr!" class="social-links"><img src="images/SVG/04-flickr.svg" alt="Flickr" /></a></li>
+                
+                
+                
+                <li><a href="http://hayleyygregg.tumblr.com" title="Check out my Blog!" class="social-links"><img src="images/SVG/tumblr.svg" alt="Tumblr" /></a></li>
+                
+                
+                
+                <li><a href="https://github.com/hayleyygregg" title="Find me on Github!" class="social-links"><img src="images/SVG/github.svg" alt="Github" /></a></li>
+            
+            
+            </ul>
+            
+            
+            
+            
+            <h4>Designed &amp; Coded by Hayley Gregg 2015.</h4>
+            
+            
+            
+
+        
+        
+        
+        </footer>
+        
+        
+        
+
+        
+    </article>
+
+
+
+</body>
+
+
+
+</html>
