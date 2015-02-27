@@ -46,7 +46,12 @@
         #work {
             width: 100%;
             background-color: #61DBD8; 
+            
+-webkit-box-shadow: inset -2px 0px 114px -49px rgba(56,127,126,1);
+-moz-box-shadow: inset -2px 0px 114px -49px rgba(56,127,126,1);
+box-shadow: inset -2px 0px 114px -49px rgba(56,127,126,1);
             overflow: auto;
+            
             
             
             
@@ -113,6 +118,23 @@ h2#subtitle {
 
     
 }
+
+h3 {
+    
+    font-family: 'josefin slab';
+    text-transform: uppercase;
+    
+}
+
+#about {
+    
+    
+    font-family: 'lora';
+    
+    
+}
+
+
 
 h3, #work-heading {
     
