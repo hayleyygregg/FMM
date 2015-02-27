@@ -44,10 +44,10 @@
 
 
         #work {
-            
             width: 100%;
-            background-color: #2deadb;  /*  another nice colour #00e5e5 light blue colour #87f2ee */
-/*            padding-top: 40px;*/
+            background-color: #61DBD8; 
+            overflow: auto;
+            
             
             
         }
@@ -58,9 +58,11 @@
 header {
     
     
-    background-image: url(images/background.png);
+    background-image: url(images/background3.png);
     background-size: cover;
 width: 100%;
+        overflow: auto;
+    padding-bottom: 50px;
    /* background-color: #2deadb;  another nice colour #00e5e5 light blue colour #87f2ee */
 /*    color: white; in a diff place*/
 /*    padding: 120px;*/
@@ -95,7 +97,6 @@ h1 {
 h2#subtitle {
  
     margin-top: 5px;
-    padding-top: 0;
     font-weight: 300;
     font-size: 1.4em;
 
@@ -128,7 +129,7 @@ h1, h2#subtitle, #work-heading, #work-subheading {
 }
 
 
-#work-subheading { /* keep? */
+#work-subheading {  keep? 
     
     
     opacity: 0.9;
@@ -293,7 +294,7 @@ margin: auto; /* to center */
 figure {
    
     text-align: center;
-    margin-bottom: 30px;
+/*    margin-bottom: 30px;*/
     
 }
 
@@ -335,40 +336,23 @@ opacity: 1;
 
 }
 
-figure#lettering-heart {
-    
-text-align: center;
-    margin: 30px 0; /* was 40px 0 */
 
-
-    
-}
-
-figure#lettering-heart img {
-    
-    width: 50%;
-    
-    
-}
 
 
 header figure img{
     
     
-    padding-top: 120px;
+    padding-top: 50px;
+/*    width: 250px;*/
+    width: 200px;
+    margin-bottom: 10px;
 
     
     
 }
 
-header figure#arrow {
-    
 
-padding-top: 70px; /* was 80 */
-padding-bottom: 30px; /* was 20 */
-margin-bottom: 0; /* so draw and create stays right place */
-    
-}
+
 
 header figure#arrow img, figure#arrow2 img {
     
@@ -459,7 +443,7 @@ ul#social {
     
     text-align: center;
     list-style-type: none;
-/*    margin-top: 20px;*/
+    margin-top: 100px;
 
     
     
@@ -496,90 +480,12 @@ ul#social li img {
 }
 
 
-#work-images {
-    
-    
-    text-align: center;
-    
-    
-    
-}
-
 
 
 /* WORK SHOWCASE */
 
 
 
-ul#showcase, ul#showcase2 {
-    
-    
-    margin: 50px;
-    
-    
-    
-}
-
-
-
-
-
-ul#showcase li a, ul#showcase li a:link, ul#showcase li a:hover, ul#showcase li a:visited, ul#showcase2 li a, ul#showcase2 li a:link, ul#showcase2 li a:hover, ul#showcase2 li a:visited {
-    
-    border: none;
-    
-    
-}
-
-
-/* Source of Image Overlay http://www.w3schools.com/css/css_image_transparency.asp 
-
-Image Text Overlay help http://www.corelangs.com/css/box/overlay.html */
-
-
-ul#showcase li img, ul#showcase2 li img {
-    
-    width: 300px;
-    opacity: 1.0;
-/*    filter: alpha(opacity=40); not valid - not really needed? */
-
-
-    
-    
-}
-
-
-ul#showcase li img:hover, ul#showcase2 li img:hover {
-    opacity: 0.4;
-/*    filter: alpha(opacity=100); not valid - not really needed? */
-}
-
-
-
-ul#showcase li img:hover span.overlay, ul#showcase2 li img:hover span.overlay {
-  background: rgba(0,0,0,0.5);
-  color: white;
-  cursor: pointer;
-  display: table;
-  height: 150px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 150px;
-}
-
-
-
-
-
-
-ul#showcase li, ul#showcase2 li {
-    
-    display: inline;
-    margin: 0 30px;
-    
-    
-}
 
 
 
@@ -595,6 +501,7 @@ footer h4 {
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-top: 10px;
+    margin-bottom: 50px;
 
     
     
@@ -603,8 +510,7 @@ footer h4 {
 footer {
     
     
-/*    margin-bottom: 50px;*/
-    margin: 60px 0;
+    	       clear: both;
     
     
 }
