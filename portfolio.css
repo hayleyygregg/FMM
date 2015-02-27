@@ -46,7 +46,7 @@
         #work {
             width: 100%;
             background-color: #61DBD8; 
-            padding: 200px 0;
+            padding: 100px 0;
             
 -webkit-box-shadow: inset -2px 0px 114px -49px rgba(56,127,126,1);
 -moz-box-shadow: inset -2px 0px 114px -49px rgba(56,127,126,1);
@@ -218,7 +218,7 @@ h1, h2#subtitle, #work-heading, #work-subheading {
 #about {
     
     
-    padding: 200px;
+    padding: 100px;
     
     
 }
