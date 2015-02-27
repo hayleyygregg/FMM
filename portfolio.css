@@ -46,11 +46,13 @@
         #work {
             width: 100%;
             background-color: #61DBD8; 
+            padding: 200px 0;
             
 -webkit-box-shadow: inset -2px 0px 114px -49px rgba(56,127,126,1);
 -moz-box-shadow: inset -2px 0px 114px -49px rgba(56,127,126,1);
 box-shadow: inset -2px 0px 114px -49px rgba(56,127,126,1);
             overflow: auto;
+            
             
             
             
@@ -71,6 +73,39 @@ padding-bottom: 400px;
    /* background-color: #2deadb;  another nice colour #00e5e5 light blue colour #87f2ee */
 /*    color: white; in a diff place*/
 /*    padding: 120px;*/
+    
+}
+
+
+#nav {
+    
+    position: fixed;
+/*    background-color: #fff;*/
+    width: 100%;
+    opacity: 0.5;
+    text-align: right;
+    padding: 10px;
+
+    
+}
+
+#nav ul {     margin-right: 20px; }
+
+#nav ul li {
+    
+    list-style: none;
+    display: inline;
+    padding: 0 20px;
+    font-size: 1.2em;
+    
+    
+}
+
+#nav ul li a {
+    
+    border: none;
+    
+    
     
 }
 
@@ -121,11 +156,13 @@ h2#subtitle {
 
 h3 {
     
-    font-family: 'josefin slab';
-    text-transform: uppercase;
+ font-family: 'Roboto';
+
+
     
 }
 
+/*
 #about {
     
     
@@ -133,13 +170,15 @@ h3 {
     
     
 }
+*/
 
 
 
 h3, #work-heading {
     
     
-        font-size: 1.9em;
+        font-size: 2.8em;
+        font-weight: 200;
     
     
 }
@@ -179,7 +218,7 @@ h1, h2#subtitle, #work-heading, #work-subheading {
 #about {
     
     
-    padding-bottom: 50px; /* bring social links closer */
+    padding: 200px;
     
     
 }
