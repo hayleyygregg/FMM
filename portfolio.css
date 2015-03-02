@@ -36,15 +36,17 @@
 
         section {
             
-            width: 60%;
-            margin: 0 auto;
-            padding: 40px 0; /* was 80px changed */
+/*            width: 60%;*/
+/*            margin: 0 auto;*/
+/*
+            padding: 40px 0;  was 80px changed 
             
+*/
         }
 
 
         #work {
-            width: 100%;
+/*            width: 100%;*/
             background-color: #61DBD8; 
             padding: 100px 0;
             
@@ -62,10 +64,13 @@ box-shadow: inset 0px 0px 228px -34px rgba(56,143,140,1);
 */
             
 
+/*
 -webkit-box-shadow: inset -5px -115px 126px -24px rgba(255,255,255,1);
 -moz-box-shadow: inset -5px -115px 126px -24px rgba(255,255,255,1);
 box-shadow: inset -5px -115px 126px -24px rgba(255,255,255,1);
             
+            
+*/
             
 
 
@@ -80,24 +85,40 @@ box-shadow: inset -5px -115px 126px -24px rgba(255,255,255,1);
 
 
 
-#about {
+section#about {
 
-    width: 100%;
+/*    width: 100%;*/
     padding: 0;
     margin: 0;
     
     
+    
+/*
     -webkit-box-shadow: inset 0px -33px 30px -18px rgba(50, 50, 50, 0.75);
 -moz-box-shadow:    inset 0px -33px 30px -18px rgba(50, 50, 50, 0.75);
 box-shadow:         inset 0px -33px 30px -18px rgba(50, 50, 50, 0.75);
+*/
+    
+    -webkit-box-shadow: inset 0px -112px 72px -67px rgba(97,219,216,1);
+-moz-box-shadow: inset 0px -112px 72px -67px rgba(97,219,216,1);
+box-shadow: inset 0px -112px 72px -67px rgba(97,219,216,1);
+    
+    
+}
+
+section#whyme {
+    
+-webkit-box-shadow: inset -10px 130px 72px -67px rgba(97,219,216,1);
+-moz-box-shadow: inset -10px 130px 72px -67px rgba(97,219,216,1);
+box-shadow: inset -10px 130px 72px -67px rgba(97,219,216,1);
     
     
 }
 
 
-#about-container {
+.about-container {
     
-
+padding: 100px;
     width: 60%;
     margin: auto;
     
@@ -114,11 +135,11 @@ header {
 background-image: url(images/background3.png);
 background-size: cover;
 width: 100%;
-height: 100%;
 padding-bottom: 400px;
    /* background-color: #2deadb;  another nice colour #00e5e5 light blue colour #87f2ee */
 /*    color: white; in a diff place*/
 /*    padding: 120px;*/
+
     
 }
 
