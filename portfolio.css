@@ -48,9 +48,27 @@
             background-color: #61DBD8; 
             padding: 100px 0;
             
+/*
 -webkit-box-shadow: inset -2px 0px 114px -49px rgba(56,127,126,1);
 -moz-box-shadow: inset -2px 0px 114px -49px rgba(56,127,126,1);
 box-shadow: inset -2px 0px 114px -49px rgba(56,127,126,1);
+*/
+            
+            
+/*
+ -webkit-box-shadow: inset 0px 0px 228px -34px rgba(56,143,140,1);
+-moz-box-shadow: inset 0px 0px 228px -34px rgba(56,143,140,1);
+box-shadow: inset 0px 0px 228px -34px rgba(56,143,140,1);     
+*/
+            
+
+-webkit-box-shadow: inset -5px -115px 126px -24px rgba(255,255,255,1);
+-moz-box-shadow: inset -5px -115px 126px -24px rgba(255,255,255,1);
+box-shadow: inset -5px -115px 126px -24px rgba(255,255,255,1);
+            
+            
+
+
             overflow: auto;
             
             
@@ -385,25 +403,27 @@ figure#top img {
     
     
         width: 50px;
+        opacity: 0.2;
     
     
     
 }
 
 
-figure#top a, figure#top a:link, figure#top a:visited {
+figure#top a, figure#top a:hover {
     
-    
-    border: none;
-    opacity: 0.2;
+    text-decoration: none;
+    border-bottom: none;
     
     
 }
+
+
 
 
 figure#top a:hover { 
-
-opacity: 1;
+    
+opacity: 0.3;
 
 
 }
@@ -424,86 +444,6 @@ top: 200px;
 
 
 
-header figure#arrow img, figure#arrow2 img {
-    
-    width: 100px;
-    
-    
-}
-
-
-figure#arrow2 {
-    
-padding-top: 60px; /* was 50 */
-margin: 0;
-    
-    
-}
-
-figure#arrow2 p#p-center {
-    
-     border-bottom: 1px solid #5a5959;   
-}
-
-figure#arrow2 a { /* stop inheritance */
-    
-    color: #010101;
-    border: none
-
-    
-}
-
-
-figure#arrow2:hover { 
-    
-    opacity: 0.5;
-    
-}
-
-
-
-#drawandcreate {
-    
-    width: 270px;
-    margin: 0 auto;
-    padding: 30px; /* was 20px */
-    
-    
-}
-
-#draw, #create {
-    
-    float: left;
-    width: 100px; /* was 200 */
-
-
-    
-}
-
-#draw img, #create img {
-    
-    width: 100%;
-    
-}
-
-p#and {
-    
-font-size: 3.9em;
-font-weight: 100;
-float: left;
-width: 50px;
-text-align: center;
-padding: 10px;
-    
-}
-
-h3#passion {
-    
-    clear: both;
-    padding-top: 30px; /* padded drawandcreate instead - was 60px */
-    
-    
-}
 
 
 
@@ -555,6 +495,16 @@ ul#social li img {
 /* WORK SHOWCASE */
 
 
+#showcase {
+    
+    
+    padding: 0;
+    margin: 85px 0 120px 0;
+    text-align: center;
+    
+    
+}
+
 
 
 
@@ -581,6 +531,8 @@ footer {
     
     
     	       clear: both;
+    
+
     
     
 }
