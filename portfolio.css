@@ -34,7 +34,7 @@
    
 
 
-        section, #about {
+        section {
             
             width: 60%;
             margin: 0 auto;
@@ -76,6 +76,34 @@ box-shadow: inset -5px -115px 126px -24px rgba(255,255,255,1);
             
             
         }
+
+
+
+
+#about {
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+    
+    -webkit-box-shadow: inset 0px -33px 30px -18px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    inset 0px -33px 30px -18px rgba(50, 50, 50, 0.75);
+box-shadow:         inset 0px -33px 30px -18px rgba(50, 50, 50, 0.75);
+    
+    
+}
+
+
+#about-container {
+    
+
+    width: 60%;
+    margin: auto;
+    
+    
+}
+
 
 
 
@@ -233,7 +261,7 @@ h1, h2#subtitle, #work-heading, #work-subheading {
 
 
 
-#about {
+#about, #whyme {
     
     
     padding: 100px;
@@ -241,7 +269,7 @@ h1, h2#subtitle, #work-heading, #work-subheading {
     
 }
 
-#about h3 {
+#about h3, #whyme h3 {
     
     margin: 0;
 margin-bottom: 20px;
@@ -250,7 +278,7 @@ margin-bottom: 20px;
 }
 
 
-#about p {
+#about p, #whyme p {
     
 margin: 40px auto;
 line-height: 1.5;
