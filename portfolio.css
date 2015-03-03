@@ -107,16 +107,21 @@ box-shadow: inset 0px -112px 72px -67px rgba(97,219,216,1);
 }
 
 section#whyme {
+
     
 -webkit-box-shadow: inset -10px 130px 72px -67px rgba(97,219,216,1);
 -moz-box-shadow: inset -10px 130px 72px -67px rgba(97,219,216,1);
 box-shadow: inset -10px 130px 72px -67px rgba(97,219,216,1);
+
+
     
     
 }
 
 
-.about-container {
+
+
+#about-container, #whyme-container {
     
 padding: 100px;
     width: 60%;
@@ -125,6 +130,28 @@ padding: 100px;
     
 }
 
+#about-container {
+    
+    
+    
+        padding-bottom: 200px;
+    
+    
+}
+
+
+#why {
+    
+    padding-top: 120px;
+    
+}
+
+
+section#whyme{
+    
+        padding-bottom: 0;
+    
+}
 
 
 
