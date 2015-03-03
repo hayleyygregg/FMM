@@ -32,6 +32,15 @@
 
 /* SECTIONS */
    
+#fade {
+    
+    color: transparent;
+    -webkit-box-shadow: inset -5px 200px 104px -144px rgba(97,219,216,1);
+-moz-box-shadow: inset -5px 200px 104px -144px rgba(97,219,216,1);
+box-shadow: inset -5px 200px 104px -144px rgba(97,219,216,1);
+    padding: 100px;
+    
+}
 
 
 
@@ -46,6 +55,16 @@
             
             
         }
+
+
+#work-heading, #why {
+    
+    
+    padding-top: 100px;
+    
+    
+    
+}
 
 
 
@@ -88,18 +107,14 @@ padding: 100px;
 #about-container {
     
     
-    
+        
         padding-bottom: 200px;
     
     
 }
 
 
-#why {
-    
-    padding-top: 120px;
-    
-}
+
 
 
 section#whyme{
