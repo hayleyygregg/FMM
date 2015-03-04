@@ -12,37 +12,82 @@
     
     <meta name="description" content="Hi I'm Hayley Gregg, Interaction Design Student from Belfast, with a love for all things Typography.">
     
+
+<meta name="author" content="Hayley Gregg">
+    
     
 <!--    Stylesheet-->
     
     
     <link rel="stylesheet" href="portfolio.css" media="screen">
     
-<!--
     
-    Google Font
--->
+<!--Google Font-->
     
     
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
     
     
-<!--    <link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>-->
     
-<!--    <link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>-->
+    <!--FAVICON-->
     
+    
+    <link rel="icon" href="images/favicon.png">
+    
+    
+<!--    VIEWPORT-->
+    
+    
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />  
 
     
-    <!--
+    
+    
+<!--    JQUERY-->
+
+    
+        <script src="js/jquery.js"></script>
+    
+    
+    <script>
+    
+// JQUERY NAVIGATION 
+     
+     
+     
+//     Huge Thank you to Scott McNabb (IxD Student) for helping me with the code to do this http://scott-mcnab.github.io/personalpage/index.html 
+     
+     
+$(document).ready(function() {
+  $('a[href*=#]').each(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top;
+// JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE DIV    
+         $(this).click(function() {
+            $("#nav li a").removeClass("active");
+            $(this).addClass('active');
+           $('html, body').animate({scrollTop: targetOffset}, 1000);
+           return false;
+         });
+      }
+    }
+  });
+});
+</script>
+    
+    
+    
+        <!--
 
 
 
-SVG ICONS FROM
+SVG ICON
 
-
-DOWNWARD FACING ARROW By: Icon Jungle
-
-https://www.iconfinder.com/iconsets/slim-square-icons-basics
 
 ARROW UP By Elegant Themes
 
@@ -62,51 +107,6 @@ http://creativecommons.org/licenses/by/3.0/
 
 
 -->
-    
-    
-    <!--FAVICON-->
-    
-    
-    <link rel="icon" href="images/favicon.png">
-    
-    
-    <meta name="viewport" content="initial-scale=1.0, width=device-width" />  
-
-
-    
-        <script src="js/jquery.js"></script>
-    
-    
-    <script>
-    
- <!--- JQUERY NAVIGATION ---> 
-     
-     
-     
-     <!-- Huge Thank you to Scott McNabb (IxD Student) for helping me with the code to do this http://scott-mcnab.github.io/personalpage/index.html -->
-     
-     
-$(document).ready(function() {
-  $('a[href*=#]').each(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-    && location.hostname == this.hostname
-    && this.hash.replace(/#/,'') ) {
-      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
-      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
-       if ($target) {
-         var targetOffset = $target.offset().top;
-<!--- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE DIV --->   
-         $(this).click(function() {
-            $("#nav li a").removeClass("active");
-            $(this).addClass('active');
-           $('html, body').animate({scrollTop: targetOffset}, 1000);
-           return false;
-         });
-      }
-    }
-  });
-});
-</script>
     
 
 </head>
@@ -168,7 +168,14 @@ $(document).ready(function() {
             
         </header>
         
+        
+<!--BLENDING HEADER TO ABOUT-->
+        
         <div id="fade"><p>fade</p></div>
+        
+        
+        
+<!--        ABOUT-->
         
         
         
@@ -196,6 +203,8 @@ $(document).ready(function() {
         </section><!-- CLOSE ABOUT -->
         
         
+        
+<!--        WORK-->
 
         
         
@@ -277,6 +286,9 @@ $(document).ready(function() {
         </section><!-- CLOSE WORK -->
         
         
+<!--        WHY ME-->
+        
+        
 
         
                         <section id="whyme">
@@ -302,6 +314,9 @@ $(document).ready(function() {
         
         </section><!-- CLOSE WHY ME -->
         
+
+        
+<!--        FOOTER-->
         
         
         
@@ -352,13 +367,13 @@ offical website : https://picons.me/#social
         
         
         
-        </footer>
+        </footer> <!--CLOSE FOOTER-->
         
         
         
 
         
-    </article>
+    </article> <!--CLOSE ARTICLE-->
 
 
 
