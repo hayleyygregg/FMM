@@ -18,7 +18,7 @@
 body {
     
     width: 100%;
-    font-family: 'Roboto', Helvetica, sans-serif;
+    font-family: 'Roboto', Helvetica Neue, Helvetica, sans-serif;
     font-weight: 300;
     color: #2c2c2c;
     
@@ -119,15 +119,7 @@ nav ul li {
     font-size: 1.2em;
 }
 
-nav ul li a {
-    border: none;
-}
 
-
-
-nav ul li a:hover { 
-    color: black; 
-}
 
 
 
@@ -165,12 +157,14 @@ h2#subtitle {
     top: 200px;
 }
 
-h3 {
-    font-family: 'Roboto';
+
+h3:before, h3:after {
+    
+    content: "•";
+    padding: 0 20px;
+    color: #61dbd8;
+    
 }
-
-
-
 
 
 h3, #work-heading {
@@ -217,7 +211,7 @@ h1, h2#subtitle, #work-heading, #work-subheading {
 
 
 
-a#ixd-link, strong#love-quote {
+strong#love-quote {
     font-weight: 400;
 }
 
@@ -229,8 +223,20 @@ a#ixd-link, strong#love-quote {
 
 a {
     text-decoration: none;
-    border-bottom: 1px solid #5a5959;
+    border-bottom: 1px solid #3db2b0;
+    color: #3db2b0;
+}
+
+nav ul li a {
+    border: none;
     color: #5a5959;
+}
+
+
+
+nav ul li a:hover { 
+    color: black; 
+    border: none;
 }
 
 #subtitle a {
@@ -254,14 +260,26 @@ a {
     border-bottom: 1px solid #5a5959;
 }
 
-a#ixd-link {
-    border: none;
-    color:inherit;
+
+a:hover, a:hover#ixd-link {
+    color: #387f7e;
+    border-bottom: 1px solid #387f7e;
 }
 
-a:hover#ixd-link {
-    color: #5a5959;
+
+figure#top a, figure#top a:hover {
+    text-decoration: none;
+    border-bottom: none;
 }
+
+
+
+
+figure#top a:hover { 
+    opacity: 0.3;
+}
+
+
 
 
 /* CENTERING ELEMENTS */
@@ -295,18 +313,6 @@ figure#top img {
     opacity: 0.2;
 }
 
-
-figure#top a, figure#top a:hover {
-    text-decoration: none;
-    border-bottom: none;
-}
-
-
-
-
-figure#top a:hover { 
-    opacity: 0.3;
-}
 
 
 
@@ -567,11 +573,11 @@ body{
 
 nav ul li, #top {
     display: none;
+    
 }
 
 
 #showcase {
-    width: 100%;
     padding: 50px 0;
     margin: 60px 0;
 }
@@ -625,16 +631,15 @@ nav ul li, #top {
 
 
 #showcase {
+    width: 80%;
     padding: 0;
     margin: auto;
-        overflow: hidden;
 }
 
 
 
 .col-sm-6 {
     padding: 40px 0;
-    
 }
 
 
@@ -673,16 +678,18 @@ nav ul {
 nav ul li {
     padding: 0 70px;
 }
+    
+    
+
+
 
 
 
 #showcase {
+    /*width: 50%;*/
     padding: 0;
     margin: auto;
-    overflow: hidden;
-    
 }
-    
 
 
 
@@ -692,7 +699,6 @@ nav ul li {
 
 
 }/* closing query */
-
 
 
 
