@@ -158,11 +158,9 @@ h2#subtitle {
 }
 
 
-h3:before, h3:after {
+h3 {
     
-    content: "•";
-    padding: 0 20px;
-    color: #61dbd8;
+    color: #3db2b0;
     
 }
 
@@ -699,5 +697,6 @@ nav ul li {
 
 
 }/* closing query */
+
 
 
