@@ -154,6 +154,14 @@ nav ul li a {
 
 
 
+nav ul li a:hover { 
+    
+    color: black; 
+
+}
+
+
+
 /* HEADINGS */
 
 
@@ -852,6 +860,137 @@ ul#social li img {
     
     
 }
+
+
+@media only screen 
+and (max-width : 900px) {
+
+        
+       body{
+ 	width: 100%;
+    margin: 0 auto;
+    font-size: 18px;
+    }
+    
+    #about, #work, #whyme {
+        
+        
+        padding: 0;
+        
+        
+    }
+    
+    #about-container, #whyme-container {  
+    padding: 80px 0;
+    width: 95%;
+    
+    } 
+    
+    
+
+    #whyme-container {
+        
+        
+        padding-bottom: 0;
+        
+    }
+    
+    nav ul { 
+        
+        text-align: center;
+    
+    }
+    
+    nav ul li {
+        
+        padding: 0 70px;
+        
+    }
+    
+    
+ 
+    
+    
+#showcase {
+    
+    width: 50%;
+    padding: 0;
+    margin: auto;
+    
+}
+
+
+        
+        .col-sm-6 {
+                      
+            padding: 40px 0;
+             
+        }
+    
+    
+}
+
+/*
+
+messing up showcase due to inheritance issues
+
+
+@media only screen 
+and (max-width : 1024px) {
+    
+    
+        
+    #whyme-container { 
+        
+        padding: 0;
+    width: 90%;
+    
+    } 
+    
+    
+        
+#showcase {
+    
+    width: 100%;
+    padding: 60px 0;
+    margin: auto;
+    
+}
+    
+    img#rise {
+        
+        content: url(images/rise5.jpg);
+        
+    }
+    
+    img#bird {
+        
+        height: 250px;
+        
+    }
+    
+        
+        .col-sm-6 {
+            
+            padding: 20px;
+        
+          
+            
+            
+        }
+    
+    
+       .ih-item.square {
+
+  width: 250px;
+  height: 250px;
+}
+        
+
+    
+    
+}
+*/
 
 
     
