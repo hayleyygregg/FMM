@@ -624,10 +624,8 @@ nav ul li, #top {
 
 
 #showcase {
-    width: 80%;
     padding: 0;
     margin: auto;
-       overflow: hidden;
 }
 
 
@@ -679,7 +677,7 @@ nav ul li {
 #showcase {
     padding: 0;
     margin: auto;
-       overflow: hidden;
+    
 }
     
 
